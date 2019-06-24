@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'textit';
+	src:url('fonts/textit.eot?-ujui35');
+	src:url('fonts/textit.eot?#iefix-ujui35') format('embedded-opentype'),
+		url('fonts/textit.woff?-ujui35') format('woff'),
+		url('fonts/textit.ttf?-ujui35') format('truetype'),
+		url('fonts/textit.svg?-ujui35#textit') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-logo:before {
+    font-family: 'textit';
+	content: "\e070";
+}
